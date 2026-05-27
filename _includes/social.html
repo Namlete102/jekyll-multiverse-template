@@ -5,7 +5,7 @@
   <h2>Follow me on ...</h2>
   <ul class="icons">
     {%- if social.github -%}<li><a href="https://github.com/Namlete{{ social.github | cgi_escape | escape }}" class="icon brands fa-github"><span class="label">GitHub</span></a></li>{%- endif -%}
-    {%- if social.microdotblog -%}<li><a rel="me" href="https://namlete99.github.io/fuse-core/{{ social.microdotblog | cgi_escape | escape }}" title="{{ social.microdotblog | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#microdotblog' | relative_url }}"></use></svg></a></li>{%- endif -%}  
+    {%- if blog.github -%}<li><a href="https://namlete.github.io/Namleteblog.github.io/{{ social.github | cgi_escape | escape }}" class="fa-solid fa-book-open"><span class="label">GitHub</span></a></li>{%- endif -%}
   </ul>
 </section>
 
